@@ -1,17 +1,25 @@
-name: Generate Snake
+name: 🐍 Snake Contribution Grid
 
 on:
   schedule:
-    # Roda a cada 24 horas às 00:00 UTC
+    # Roda todo dia às 00:00 UTC
     - cron: "0 0 * * *"
-  workflow_dispatch: # Permite rodar manualmente
+  workflow_dispatch: # Permite execução manual pelo GitHub UI
 
 jobs:
-  build:
+  generate-snake:
+    name: Generate Snake Animation
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    permissions:
+      contents: write
+
     steps:
-      # Gera a cobra
-      - name: Generate snake.svg
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Generate snake SVGs
         uses: Platane/snk@v3
         with:
           github_user_name: edezito
@@ -21,11 +29,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Faz o push das imagens geradas para a branch 'output'
-      - name: Push snake.svg to the output branch
+      - name: 🚀 Push SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "ci: update snake animation [skip ci]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

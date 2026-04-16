@@ -1,0 +1,27 @@
+name: 📊 Update Profile Stats
+
+on:
+  schedule:
+    # Atualiza a cada 6 horas
+    - cron: "0 */6 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    name: Refresh GitHub Stats Cache
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🔄 Purge stats cache (github-readme-stats)
+        run: |
+          curl -s "https://github-readme-stats-git-masterorgs-github-anuraghazra1.vercel.app/api?username=edezito&cache_seconds=1" > /dev/null
+          echo "Stats cache refreshed at $(date -u)"
+
+      - name: ✅ Done
+        run: echo "Profile stats updated successfully!"
