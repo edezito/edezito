@@ -1,9 +1,7 @@
 <div align="center">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=edezito&fontSize=60&fontColor=58a6ff&fontAlignY=38&desc=Fullstack%20%7C%20AI%20Agents%20%7C%20Builder&descAlignY=58&descColor=8b949e&animation=fadeIn" />
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0a2342,100:0d1117&height=200&section=header&text=edezito&fontSize=65&fontColor=58a6ff&fontAlignY=38&desc=Fullstack%20Developer%20%7C%20Python%20%7C%20JavaScript%20%7C%20AI%20%26%20Agents&descAlignY=58&descColor=8b949e&animation=fadeIn" />
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Fullstack+Python+%2B+JavaScript+%F0%9F%90%8D;Agentes+de+IA+%26+Automações+%F0%9F%A4%96;APIs+REST+%7C+Flask+%7C+React;Mobile+Android+%7C+Kotlin;Sempre+construindo+algo+novo...+%F0%9F%9A%80)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Desenvolvedor+Python+%2B+React;Builder+de+Agentes+IA+%F0%9F%A4%96;Builder+de+Solu%C3%A7%C3%B5es+%F0%9F%9A%80)](https://git.io/typing-svg)
 </div>
 
 ---
@@ -14,15 +12,15 @@
 class Developer:
     def __init__(self):
         self.name        = "edezito"
-        self.focus       = ["Fullstack Python + JavaScript", "AI Agents", "APIs REST"]
-        self.stack       = ["Python", "Flask", "JavaScript", "React", "PHP", "Kotlin"]
+        self.focus       = ["Fullstack Python + React", "AI Agents", "MVP Builder"]
+        self.stack       = ["Python", "Flask", "JavaScript", "React", "Docker", "AWS"]
         self.currently   = ["Agentes de IA", "MVP Financeiro", "iFood Clone"]
         self.achievements = ["Pull Shark x2 🦈", "YOLO 🎯"]
         self.fun_fact    = "Transformo café em código — e código em agentes autônomos ☕🤖"
 
     def __repr__(self):
         return "Builder | Problem Solver | AI Enthusiast"
-```
+\```
 
 ---
 
@@ -33,22 +31,17 @@ class Developer:
 ### Backend & IA
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 
 ### Frontend & Mobile
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### Banco de Dados & Ferramentas
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 </div>
 
 ---
@@ -56,16 +49,11 @@ class Developer:
 ## 🚀 Projetos em Destaque
 
 <div align="center">
-
-[![ifood-clone](https://github-readme-stats.vercel.app/api/pin/?username=edezito&repo=ifood-clone&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e)](https://github.com/edezito/ifood-clone)
-[![mvp-financeiro](https://github-readme-stats.vercel.app/api/pin/?username=edezito&repo=mvp-financeiro&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e)](https://github.com/edezito/mvp-financeiro)
-
-[![projeto-gestao-estoque](https://github-readme-stats.vercel.app/api/pin/?username=edezito&repo=projeto-gestao-estoque&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e)](https://github.com/edezito/projeto-gestao-estoque)
-[![gestao-demandas](https://github-readme-stats.vercel.app/api/pin/?username=edezito&repo=gestao-demandas&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e)](https://github.com/edezito/gestao-demandas)
-
-[![viacep-androidStudio-Kotlin-api](https://github-readme-stats.vercel.app/api/pin/?username=edezito&repo=viacep-androidStudio-Kotlin-api&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e)](https://github.com/edezito/viacep-androidStudio-Kotlin-api)
-[![agenda-androidStudio-Kotlin-bd](https://github-readme-stats.vercel.app/api/pin/?username=edezito&repo=agenda-androidStudio-Kotlin-bd&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e)](https://github.com/edezito/agenda-androidStudio-Kotlin-bd)
-
+  <p>Aqui você pode listar seus 3 melhores projetos. Substitua os links abaixo:</p>
+  
+  [![Projeto 1 - AI Agent Builder](https://img.shields.io/badge/Projeto_1-AI_Builder-58a6ff?style=for-the-badge&logo=github)](https://github.com/edezito/seu-repo-do-projeto-1)
+  [![Projeto 2 - MVP Financeiro](https://img.shields.io/badge/Projeto_2-Fin_MVP-58a6ff?style=for-the-badge&logo=github)](https://github.com/edezito/seu-repo-do-projeto-2)
+  [![Projeto 3 - iFood Clone](https://img.shields.io/badge/Projeto_3-iFood_Clone-58a6ff?style=for-the-badge&logo=github)](https://github.com/edezito/seu-repo-do-projeto-3)
 </div>
 
 ---
@@ -73,16 +61,8 @@ class Developer:
 ## 📊 GitHub Stats
 
 <div align="center">
-
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=edezito&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e"/>
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=edezito&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=6"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=edezito&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6b6b&currStreakLabel=58a6ff&dates=8b949e)](https://git.io/streak-stats)
-
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=edezito&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=edezito&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=6"/>
 </div>
 
 ---
@@ -93,8 +73,10 @@ class Developer:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/edezito/edezito/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/edezito/edezito/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/edezito/edezito/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/edezito/edezito/output/github-contribution-grid-snake.svg" />
 </picture>
+
+*(Nota: A cobra só aparecerá depois que você configurar o GitHub Action abaixo)*
 </div>
 
 ---
@@ -102,9 +84,7 @@ class Developer:
 ## 📈 Atividade Recente
 
 <div align="center">
-
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=edezito&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
 </div>
 
 ---
@@ -112,9 +92,7 @@ class Developer:
 ## 🏆 Conquistas
 
 <div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=edezito&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=6)](https://github.com/ryo-ma/github-profile-trophy)
-
+  [![trophy](https://github-profile-trophy.vercel.app/?username=edezito&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&column=6)](https://github.com/ryo-ma/github-profile-trophy)
 </div>
 
 ---
@@ -122,18 +100,11 @@ class Developer:
 ## 🔗 Conecte-se comigo
 
 <div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-edezito-181717?style=for-the-badge&logo=github)](https://github.com/edezito)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/edezito)
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-edezito-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/edezito)
+  [![Email](https://img.shields.io/badge/Email-edezito-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu-email@exemplo.com)
 </div>
 
 ---
-
 <div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=edezito&color=58a6ff&style=for-the-badge&label=VISITAS)
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0a2342,100:0d1117&height=120&section=footer" />
-
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=120&section=footer" />
 </div>
