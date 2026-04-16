@@ -90,7 +90,7 @@ class edezito:
 
 <div align="center">
 
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=edezito&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=378add&icon_color=378add&text_color=85b7eb&ring_color=185fa5"/>
+<img height="175em" src="https://github-readme-stats.vercel.app/api?username=edezito&show_icons=true&theme=github_dark&count_private=true&hide_border=true&bg_color=0d1117&title_color=378add&icon_color=378add&text_color=85b7eb&ring_color=185fa5"/>
 <img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=edezito&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=378add&text_color=85b7eb&langs_count=7"/>
 
 </div>
